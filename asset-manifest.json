@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/zoeweb/static/css/main.fdf5f86a.chunk.css",
+    "main.js": "/zoeweb/static/js/main.2aeca2bb.chunk.js",
+    "main.js.map": "/zoeweb/static/js/main.2aeca2bb.chunk.js.map",
+    "runtime-main.js": "/zoeweb/static/js/runtime-main.2a1b8e63.js",
+    "runtime-main.js.map": "/zoeweb/static/js/runtime-main.2a1b8e63.js.map",
+    "static/css/2.23154d62.chunk.css": "/zoeweb/static/css/2.23154d62.chunk.css",
+    "static/js/2.7e9db55c.chunk.js": "/zoeweb/static/js/2.7e9db55c.chunk.js",
+    "static/js/2.7e9db55c.chunk.js.map": "/zoeweb/static/js/2.7e9db55c.chunk.js.map",
+    "static/js/3.a4f6acf4.chunk.js": "/zoeweb/static/js/3.a4f6acf4.chunk.js",
+    "static/js/3.a4f6acf4.chunk.js.map": "/zoeweb/static/js/3.a4f6acf4.chunk.js.map",
+    "index.html": "/zoeweb/index.html",
+    "static/css/2.23154d62.chunk.css.map": "/zoeweb/static/css/2.23154d62.chunk.css.map",
+    "static/css/main.fdf5f86a.chunk.css.map": "/zoeweb/static/css/main.fdf5f86a.chunk.css.map",
+    "static/js/2.7e9db55c.chunk.js.LICENSE.txt": "/zoeweb/static/js/2.7e9db55c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a1b8e63.js",
+    "static/css/2.23154d62.chunk.css",
+    "static/js/2.7e9db55c.chunk.js",
+    "static/css/main.fdf5f86a.chunk.css",
+    "static/js/main.2aeca2bb.chunk.js"
+  ]
+}
