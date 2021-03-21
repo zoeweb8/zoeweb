@@ -7,7 +7,10 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap-icons": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "hamburger-react": "^2.4.0",
+    "nodemailer": "^6.5.0",
     "react": "^17.0.1",
     "react-awesome-reveal": "^3.7.1",
     "react-bootstrap-icons": "^1.4.0",
@@ -20,6 +23,7 @@
     "react-transition-group": "^4.4.1",
     "react-typewriter": "^0.4.1",
     "react-typewriter-effect": "^1.0.2",
+    "react-typing-effect": "^2.0.5",
     "web-vitals": "^1.1.1"
   },
   "scripts": {

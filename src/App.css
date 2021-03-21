@@ -29,7 +29,6 @@
   float: left;
   z-index: 1;
 }
-
 .btn{
   color:black;
   background:white;
@@ -52,9 +51,6 @@
 
 @media all and (max-width: 550px){
   .btn{
-
-    color: grey;
-    padding: 5px 100px;
     display:none;
   }
   .logo{
@@ -62,7 +58,7 @@
     z-index: 1;
   }
   .mobileIcon{
-    display:inline-flex;
+    display:inline-block;
     margin-right: 15px;
     margin-bottom: 10px;
     width: 40px;
@@ -73,7 +69,6 @@
     color: white;
     text-align: center;
     background: pink;
-
   }
 }
 .home{
@@ -81,13 +76,16 @@
   background: pink;
   display:inline-block;
   width:100%;
+  padding: 100px;
 
 }
 .about{
-  height: 100vh;
+  height: 100%;
   background: white;
   display:inline-block;
   width:100%;
+  padding:50px;
+	padding-bottom: 80px;
 }
 .blog{
   height: 100vh;
@@ -96,8 +94,9 @@
   width:100%;
 }
 .contact{
-  height: 100vh;
-  background: pink;
+  height: 100%;
+  padding-top: 100px;
+  background: white;
   display:inline-block;
   width:100%;
 }
@@ -106,12 +105,10 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 500px;
-  height: 200px;
-  width: 200px;
+  border-radius: 100px;
   position: relative;
   align-content: center;
-  padding-top: 10px;
+  padding: 5px;
 }
 p{
   font-family: 'American Typewriter, serif';
@@ -119,60 +116,100 @@ p{
   text-align: center;
   border-radius: 100px;
   border: 2px solid #FFC0CB;
-  margin-top: 10px;
-  color: pink;
+  margin-top: 5px;
+  color: lightblue;
 
 }
 .edu{
   font-family: 'American Typewriter, serif';
-  background: pink;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  background: lightblue;
   border: 2px solid #FFC0CB;
   border-radius: 10px;
   padding: 20px;
   margin-top: 10px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
   align-items: center;
 }
 li{
+  margin: 5px;
   list-style: none;
-  text-align: center;
-  padding-bottom: 2px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 10px;
+}
+.arrow {
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  color: white;
+  font-size: 50px;
 }
 h1{
-  text-align: center;
+  margin:5px;
   text-decoration: underline;
-  padding-top: 5px;
-  border-top: 2px solid #000;
   font-size: 20px;
+  font-family: 'American Typewriter, serif';
 }
 h2{
-  text-align: center;
   text-decoration: none;
   font-size: 20px;
-}
-.bullets{
-  text-align: center;
-  list-style: square;
+  font-family: 'American Typewriter, serif';
 }
 h3{
-  font-family: 'American Typewriter, serif';
-  text-align: center;
-  text-decoration: underline;
-  margin-top: 20px;
-  font-size: 20px;
+
 }
 .hobbyIcon{
   display: inline-block;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  width: 80px;
-  height: 80px;
-  line-height: 100px;
+  margin: 0 5px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
   border-radius: 30%;
-  font-size: 50px;
+  line-height: 85px;
+  font-size: 40px;
   color: white;
   text-align: center;
   background: pink;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type=text], input[type=email], textarea{
+  border: 2px solid #000;
+  border-radius: 3px;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+footer{
+  position: static;
+  width: 100%;
+  color: black;
+  padding-top: 280px;
+  line-height: 100px;
+  font-size: 0.7em;
+  text-align: center;
+  bottom:0;
+
 }
