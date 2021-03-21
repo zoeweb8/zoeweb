@@ -8,6 +8,7 @@ class Contact extends React.Component{
     return(
       <div className="contact">
         <p> Let's Be Friends!</p>
+          <img src="https://i.ibb.co/MpwptgS/Zoe-Contactoverlay.png" alt="Zoe-Contactoverlay" border="0" height="400px" width="300px"></img>
           <div className="container">
             <a className="hobbyIcon" href="https://github.com/zotrani"><FaGithub /></a>
             <a className="hobbyIcon" href="https://www.linkedin.com/in/ztrani"><FaLinkedin /></a>
