@@ -1,47 +1,34 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Bounce } from "react-awesome-reveal";
 
-class About extends Component{
+class About extends React.Component{
   render(){
-    if(this.props.data){
-       var name = this.props.data.name;
-       var profilepic= "images/"+this.props.data.image;
-       var bio = this.props.data.bio;
-       var city = this.props.data.address.city;
-       var state = this.props.data.address.state;
-       var phone= this.props.data.phone;
-       var email = this.props.data.email;
-       var resumeDownload = this.props.data.resumedownload;
-     }
-     return (
-       <section id="about">
-       <div className="row">
-          <div className="three columns">
-             <img className="profile-pic"  src={profilepic} alt="Nordic Giant Profile Pic" />
+    return(
+      <div className="about">
+        <Bounce>
+              <p>About</p>
+              <img src="https://i.ibb.co/7Q3vdVC/zoe.jpg" alt="zoe" height="200px" width="200px" ></img>
+        </Bounce>
+        <div className="edu">
+            <h1>Education </h1>
+               <Bounce>
+                <li>Rochester Institute of Technology</li>
+                <li>Bachelors of Science - Computer Engineering</li>
+                <li>Expected Graduation: May 2023</li>
+            <h1>Key Skills </h1>
+                  <h2>Programming Skills:</h2>
+                    <li> C, Java, Python 3.7</li>
+                    <li> PowerShell, JSON </li>
+                    <li> HTML, JavaScript, CSS</li>
+                  <h2>Software Tools:</h2>
+                    <li>GitHub, Git Bash, Linux</li>
+                    <li>Visual Studio Code, IntelliJ</li>
+                    <li> Atom, PyCharm, IDLE</li>
+                </Bounce>
+
           </div>
-          <div className="nine columns main-col">
-             <h2>About Me</h2>
-
-             <p>{bio}</p>
-             <div className="row">
-                <div className="columns contact-details">
-                   <h2>Contact Details</h2>
-                   <p className="address">
- 						   <span>{name}</span><br />
- 						   <span>{street}<br />
- 						         {city} {state}, {zip}
-                    </span><br />
- 						   <span>{phone}</span><br />
-                      <span>{email}</span>
- 					   </p>
-                </div>
-              
-             </div>
-          </div>
-       </div>
-
-    </section>
-     );
-   }
- }
-
- export default About;
+      </div>
+    )
+  }
+}
+export default About

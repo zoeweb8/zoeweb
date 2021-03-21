@@ -169,12 +169,11 @@ h3{
 }
 .hobbyIcon{
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 10px;
   width: 70px;
   height: 70px;
-  line-height: 70px;
   border-radius: 30%;
-  line-height: 85px;
+  line-height: 73px;
   font-size: 40px;
   color: white;
   text-align: center;
